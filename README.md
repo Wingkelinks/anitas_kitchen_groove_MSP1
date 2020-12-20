@@ -16,7 +16,7 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ### 2. Scope
 
-The website will include:
+**Minimum Viable Product** for the website will include:
 
 * a home page - with attractive images showcasing the brand and products. 
 * an about page - giving a 'personalised' view into the history of the business and the owner. 
@@ -24,15 +24,26 @@ The website will include:
 * a menu - so that users can clearly see what's available to order with all relevant info included, eg. product ingredients, pricing etc. 
 * a contact page - with a form, that will allow users to send an email directly to the business owner to place orders or ask any questions. 
 
+**Desirable features** at a later stage may include:
+
+* a sign up feature
+* an online payment feature
+
 ### 3. Structure
 
 ### 4. Skeleton
 
-* Wireframes showing layout and responsive design: 
-
-[Wireframes](https://github.com/Wingkelinks/anitas_kitchen_groove_MSP1/blob/master/MSP1%20wireframe.pdf)
+* Wireframes showing layout and responsive design: [Wireframes](https://github.com/Wingkelinks/anitas_kitchen_groove_MSP1/blob/master/MSP1%20wireframe.pdf)
 
 ### 5. Surface
+
+* **Original photographs** were used as a starting point to help determine what the final product would look like. A professional photographer  [Elizabeth Brown](https://www.elizabethbrown.uk/), was hired as and provided with a brief, outlining a vision for the business and its products.
+
+* With a good selection of high quality images, a suitable **colour scheme** could be established. [Coolors] (https://coolors.co/) was utilised to help determine an appropriate pallete. Picking the colour scheme was driven by a desire to a produce a sleek effect that was also vibrant and warm. 
+
+* For **font selection** an article from Google Design on [Choosing Web Fonts: A Beginners Guide] (https://design.google/library/choosing-web-fonts-beginners-guide/) was referenced. 
+
+* A selection of **animations** and **effects** were included to enhance user interaction and user experience.
 
 ##
 

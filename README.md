@@ -18,7 +18,9 @@ Up until now, the business owner has promoted their products and taken orders fr
 
 ### 4. Skeleton
 
-*[Wireframes] https://github.com/Wingkelinks/anitas_kitchen_groove_MSP1/blob/master/MSP1%20wireframe.pdf/ "Wireframes:" showing layout and responsive design. 
+* Wireframes showing layout and responsive design: 
+
+https://github.com/Wingkelinks/anitas_kitchen_groove_MSP1/blob/master/MSP1%20wireframe.pdf/ 
 
 ### 5. Surface
 

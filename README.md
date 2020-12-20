@@ -24,3 +24,51 @@ https://github.com/Wingkelinks/anitas_kitchen_groove_MSP1/blob/master/MSP1%20wir
 
 ### 5. Surface
 
+##
+
+### User Stories 
+
+## 
+
+## Features 
+
+### Existing Features
+
+### Features Left to Implement 
+
+* Online payment feature 
+
+## 
+
+## Technologies Used 
+##### 1. Languages
+
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+##### 2. Integrations
+
+* [Bootstrap](https://getbootstrap.com/) - [Bootstrap CDN](https://www.bootstrapcdn.com/)
+* [FontAwesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+
+##### 3. Workspace, version control and Repository storage
+
+* [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - IDE
+* [Git](https://git-scm.com/) - Version Control
+* [GitHub](https://github.com/) - Repository Storage
+
+##
+
+## Testing 
+
+## Deployment 
+
+## Credits
+### Content 
+
+### Media 
+
+### Acknowledgments 
+
+##

@@ -26,10 +26,36 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 **Desirable features** at a later stage may include:
 
-* a sign up feature
+* a newsletter sign up feature
+* a page for recipes/cooking videos  
 * an online payment feature
 
+
 ### 3. Structure
+
+**Stakeholder interview:** 
+
+1. What are the goals, values and vision of your business? 
+
+2. Who are your users (customers)? And how will this website help them? 
+
+3. What are your unique selling points? 
+
+4. Who are your competitors? What do you like or dislike about them?
+
+**User interviews/research:**
+
+1. Would you like to have access to a website for Anita's Kitchen Groove?  
+
+2. If yes, what features/content would you like the website to have and why? 
+
+3. Would you use the website to access information and place orders? 
+
+4. What type of device would you normally use to perform the above tasks?
+
+4. What do you like about Anita's Kitchen Groove? 
+
+5. What aspect of the business would you like to see improved or altered? 
 
 ### 4. Skeleton
 
@@ -72,6 +98,7 @@ Up until now, the business owner has promoted the business and dealt with orders
 * [Bootstrap](https://getbootstrap.com/) - [Bootstrap CDN](https://www.bootstrapcdn.com/)
 * [FontAwesome](https://fontawesome.com/)
 * [Google Fonts](https://fonts.google.com/)
+* [Tachyons](https://tachyons.io/)
 
 ##### 3. Workspace, version control and Repository storage
 

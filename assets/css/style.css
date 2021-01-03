@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/*--------------------------- Color palette 1 */
+.color-palette-1 {
+	color: #211930;
+	color: #9da759;
+	color: #f68658;
+	color: #c7002f;
+	color: #ccb9ab;
+	color: #ebf5ee;
+	color: #d06e95;
+	color: #009aa9;
+	color: #09070d;
+	color: #002529;
+}
+
+/*---------------------------- Color palette 1 */
+
+/*---------------------------- Navigation */
+
+/* Overide tachyon default dotted outline on .link */
+.link:focus {
+	transition: color 0.15s ease-in;
+	outline: 1px none currentColor;
+}
+
+.sticky {
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+
+/*---------------------------- Navigation */
+
+/*---------------------------- Header & showcase content */
+#showcase {
+	background: url(/images/AnitasKitchen-6.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #09070d;
+}
+
+/*---------------------------- Header & showcase content */
+
+/*---------------------------- About section */
+
+.about-image {
+	background: url(/images/AnitasKitchenBATCH2-18.jpg) no-repeat center center;
+	background-size: cover;
+	width: 100%;
+	height: auto;
+}
+
+/*---------------------------- About section */
+
+/*---------------------------- Testimonials section */
+/* Social Container with Slider */
+.social-slider {
+	position: relative;
+	/* border: 1px solid red; */
+	margin-bottom: 50px;
+}
+
+.social-slider .next {
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	font-size: 2em;
+	color: #333;
+	cursor: pointer;
+}
+
+.social-slider .prev {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	font-size: 2em;
+	color: #333;
+	cursor: pointer;
+}
+
+.social-slider .social-wrapper {
+	width: 84%;
+	height: 350px;
+	margin: 20px auto;
+	overflow: hidden;
+	/* border: 1px dashed red; */
+}
+
+.social-slider .social-wrapper .post {
+	width: 84%;
+	height: 350px;
+	margin: 0px 10px;
+	display: inline-block;
+	background: white;
+	border-radius: 5px;
+}
+
+.social-slider .social-wrapper .post .slider-image {
+	width: 100%;
+	height: 350px;
+}
+/*---------------------------- Testimonials section */
+
+/*---------------------------- Arrow animation */
+
+/*---------------------------- Arrow animation */
+
+/*---------------------------- Footer */
+
+/*---------------------------- Footer */

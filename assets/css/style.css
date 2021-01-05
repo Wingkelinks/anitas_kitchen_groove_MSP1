@@ -18,6 +18,18 @@
 	color: #002529;
 }
 
+.color-palette-2 {
+	color: #002a52;
+	color: #006594;
+	color: #0088c2;
+	color: #009efa;
+	color: #dbfbff;
+	color: #a8001f;
+	color: #ff6d2e;
+	color: #7ad7ff;
+	color: #ff428e;
+	color: #000b14;
+}
 /*---------------------------- Color palette 1 */
 
 /*---------------------------- Navigation */
@@ -29,7 +41,7 @@ body > nav > div:nth-child(1) {
 
 /* Whole nav stlying */
 body > nav {
-	background: #09070d;
+	background: #000b14;
 }
 
 /* Overide tachyon default dotted outline on .link */
@@ -48,12 +60,13 @@ body > nav {
 
 /*---------------------------- Header & showcase content */
 #showcase {
-	background: url(/images/AnitasKitchen-6.jpg) no-repeat center center fixed;
+	background: url(/images/product/AnitasKitchen-16.jpg) no-repeat center top
+		fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #09070d;
+	background-color: #000b14;
 }
 
 /*---------------------------- Header & showcase content */
@@ -64,7 +77,8 @@ body > nav {
 }
 
 .about-image {
-	background: url(/images/AnitasKitchenBATCH2-18.jpg) no-repeat center center;
+	background: url(/images/people/AnitasKitchenBATCH2-18cropped.jpg) no-repeat
+		center center;
 	background-size: cover;
 	width: 100%;
 	height: auto;
@@ -75,7 +89,7 @@ body > nav {
 /*---------------------------- Testimonials section */
 
 #testimonial-section {
-	background-color: #d06e95;
+	background-color: #ff428e;
 }
 /* Social Container with Slider */
 .social-slider {
@@ -131,10 +145,157 @@ body > nav {
 
 /*---------------------------- Arrow animation */
 
+/* Hover.css */
+/* Bob */
+@-webkit-keyframes hvr-bob {
+	0% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+	50% {
+		-webkit-transform: translateY(-4px);
+		transform: translateY(-4px);
+	}
+	100% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+}
+@keyframes hvr-bob {
+	0% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+	50% {
+		-webkit-transform: translateY(-4px);
+		transform: translateY(-4px);
+	}
+	100% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+}
+@-webkit-keyframes hvr-bob-float {
+	100% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+}
+@keyframes hvr-bob-float {
+	100% {
+		-webkit-transform: translateY(-8px);
+		transform: translateY(-8px);
+	}
+}
+.hvr-bob {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover,
+.hvr-bob:focus,
+.hvr-bob:active {
+	-webkit-animation-name: hvr-bob-float, hvr-bob;
+	animation-name: hvr-bob-float, hvr-bob;
+	-webkit-animation-duration: 0.3s, 1.5s;
+	animation-duration: 0.3s, 1.5s;
+	-webkit-animation-delay: 0s, 0.3s;
+	animation-delay: 0s, 0.3s;
+	-webkit-animation-timing-function: ease-out, ease-in-out;
+	animation-timing-function: ease-out, ease-in-out;
+	-webkit-animation-iteration-count: 1, infinite;
+	animation-iteration-count: 1, infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-direction: normal, alternate;
+	animation-direction: normal, alternate;
+}
+
+/* Hang */
+@-webkit-keyframes hvr-hang {
+	0% {
+		-webkit-transform: translateY(8px);
+		transform: translateY(8px);
+	}
+	50% {
+		-webkit-transform: translateY(4px);
+		transform: translateY(4px);
+	}
+	100% {
+		-webkit-transform: translateY(8px);
+		transform: translateY(8px);
+	}
+}
+@keyframes hvr-hang {
+	0% {
+		-webkit-transform: translateY(8px);
+		transform: translateY(8px);
+	}
+	50% {
+		-webkit-transform: translateY(4px);
+		transform: translateY(4px);
+	}
+	100% {
+		-webkit-transform: translateY(8px);
+		transform: translateY(8px);
+	}
+}
+
+@-webkit-keyframes hvr-hang-sink {
+	100% {
+		-webkit-transform: translateY(8px);
+		transform: translateY(8px);
+	}
+}
+@keyframes hvr-hang-sink {
+	100% {
+		-webkit-transform: translateY(8px);
+		transform: translateY(8px);
+	}
+}
+.hvr-hang {
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	color: #ffffff;
+}
+.hvr-hang:hover,
+.hvr-hang:focus,
+.hvr-hang:active {
+	-webkit-animation-name: hvr-hang-sink, hvr-hang;
+	animation-name: hvr-hang-sink, hvr-hang;
+	-webkit-animation-duration: 0.3s, 1.5s;
+	animation-duration: 0.3s, 1.5s;
+	-webkit-animation-delay: 0s, 0.3s;
+	animation-delay: 0s, 0.3s;
+	-webkit-animation-timing-function: ease-out, ease-in-out;
+	animation-timing-function: ease-out, ease-in-out;
+	-webkit-animation-iteration-count: 1, infinite;
+	animation-iteration-count: 1, infinite;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+	-webkit-animation-direction: normal, alternate;
+	animation-direction: normal, alternate;
+	color: #ff6300;
+}
+
+/* Hover.css */
+
 /*---------------------------- Arrow animation */
+
+/* --------------------------- Menu */
+
+/* Need to fix menu overlay on scroll */
+body > section {
+}
+/* --------------------------- Menu */
 
 /*---------------------------- Footer */
 footer {
-	background-image: url(/images/colorful-african-design-circle-pattern-600w-1877940466.jpg);
+	background-color: #000b14;
 }
 /*---------------------------- Footer */

@@ -15,24 +15,74 @@
 
 	<nav class=" tc sticky">
 		<div>
-			<a href="/assets/index.html" class="link dim black">
-				<h1 class="near-white mb0 i fw6 f1 f-subheadline-l ">Anita's</h1>
-				<h2 class="near-white mt0 mb0 ttu tracked fw4 lh-copy">Kitchen Groove</h2>
+			<a href="/assets/index.html" class="link dim">
+				<h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l ">Anita's</h1>
+				<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">Kitchen Groove</h2>
 			</a>
 		</div>
 
-		<div class="bt bb tc center mt2 flex justify-center silver">
-			<a class="silver f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
+		<div class=" tc center mt2 flex justify-center bg-white bb b--light-gray">
+			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
 				href="#about-section">About</a>
-			<a class="silver f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l "
+			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l "
 				href="/assets/menu.html">Menu</a>
-			<a class="silver f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l "
+			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l "
 				href="/assets/gallery.html">Gallery</a>
-			<a class="silver f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
+			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
 				href="/assets/contact.html">Contact</a>
 		</div>
 
 	</nav>
+
+
+<!-- Section A (Contact Form) -->
+<section id="contact-section" class="pa4 black-80">
+	<div class="measure center ph0 mh0">
+	  <h2 class="tc ttu f3 pa2">Want to place an order? </h2>
+	  <div class="bottom-line"></div>
+	  <h2 class="tc ttu f3 pa2">Got any questions?</h2>
+	  <div class="bottom-line"></div>
+	  <p class="f4 tc pa1">Here is how you can reach me</p>
+	  <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+		<div class="mt3">
+		  <input
+			type="text"
+			class="pa2 input-reset ba bg-transparent w-100"
+			placeholder="Name"
+			name="Name"
+		  />
+		  <input
+			type="text"
+			class="mt3 pa2 input-reset ba bg-transparent w-100"
+			placeholder="Subject"
+			name="Subject"
+		  />
+		  <input
+			type="email"
+			class="mt3 pa2 input-reset ba bg-transparent w-100"
+			placeholder="Email Address"
+			name="Email"
+		  />
+		  <input
+			type="text"
+			class="mt3 pa2 input-reset ba bg-transparent w-100"
+			placeholder="Phone Number"
+			name="Phone"
+		  />
+		  <textarea
+			class="mt3 pa2 input-reset ba bg-transparent w-100"
+			placeholder="Enter Message"
+			name="Message"
+		  ></textarea>
+		  <div class="mt3">
+			<div data-netlify-recaptcha="true"></div>
+		  </div>
+		</div>
+		<button type="submit" class="b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib">Submit</button>
+	  </form>
+	</div>
+  </section>
+  <!-- Section A (Contact Form) End -->
 
 
 

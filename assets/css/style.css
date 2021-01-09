@@ -72,9 +72,6 @@ body > nav {
 /*---------------------------- Header & showcase content */
 
 /*---------------------------- About section */
-#about-section {
-	margin-bottom: 20px;
-}
 
 .about-image {
 	background: url(/images/people/AnitasKitchenBATCH2-18cropped.jpg) no-repeat
@@ -298,37 +295,32 @@ body > nav {
 
 /* --------------------------- Menu */
 
+/* --------------------------- Gallery */
+
+#gallery-section {
+	margin-top: 18rem;
+	margin-bottom: 5rem;
+}
+.gallery-container {
+	max-width: 900px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 4px;
+	margin: 32px auto;
+}
+
+.gallery-container img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+/* --------------------------- Gallery */
+
 /* --------------------------- Contact Form */
 
-/* .container {
-	max-width: 1280px;
-	padding: 0 1.5rem;
-	margin: 12rem auto auto;
-	overflow: hidden;
-} */
-/* .text-center {
-	text-align: center;
-} */
-/* 
-.py-3 {
-	padding: 3rem 0;
-} */
 #contact-section {
 	margin-top: 12rem;
 }
-/* .lead {
-	font-size: 1.3rem;
-	margin-bottom: 2rem;
-}
-
-.section-title {
-	font-size: 2rem;
-	display: block;
-	padding-bottom: 0.5rem;
-	text-align: center;
-	font-weight: 100;
-	text-transform: uppercase;
-} */
 
 .bottom-line {
 	height: 2px;
@@ -338,37 +330,19 @@ body > nav {
 	margin: 0 auto 1rem auto;
 }
 
-/* #contact-a .text-fields {
-	display: grid;
-	grid-template-areas: "name email" "subject phone" "message message";
-	grid-gap: 1.2rem;
-	margin-bottom: 1.2rem;
-}
-#contact-a .text-fields .name-input {
-	grid-area: name;
-}
-#contact-a .text-fields .subject-input {
-	grid-area: subject;
-}
-#contact-a .text-fields .email-input {
-	grid-area: email;
-}
-#contact-a .text-fields .phone-input {
-	grid-area: phone;
-}
-#contact-a .text-fields .message-input {
-	grid-area: message;
-}
-#contact-a .text-fields .text-input {
-	padding: 0.5rem 1rem;
-}
-#contact-a .text-fields .message-input {
-	height: 100px;
+#contact-section i {
+	color: #7ad7ff;
 }
 
-#contact-a button[type="submit"] {
-	width: 50%;
-} */
+/* Overide tachyon styling to center button */
+#contact-section button {
+	background-color: #d6f3ff;
+	color: #7ad7ff;
+}
+#contact-section button:hover {
+	background-color: #ff99c2;
+	color: #ffffff;
+}
 /* --------------------------- Contact Form */
 
 /*---------------------------- Footer */

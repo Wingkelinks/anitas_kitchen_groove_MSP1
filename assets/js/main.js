@@ -60,3 +60,5 @@ $(".social-wrapper").slick({
 		// instead of a settings object
 	],
 });
+
+// Lightbox Image Gallery

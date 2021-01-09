@@ -99,10 +99,10 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ##### 2. Integrations
 
-- [Bootstrap](https://getbootstrap.com/) - [Bootstrap CDN](https://www.bootstrapcdn.com/)
 - [FontAwesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
 - [Tachyons](https://tachyons.io/)
+- [LightBox2](https://lokeshdhakar.com/projects/lightbox2/)
 
 ##### 3. Workspace, version control and Repository storage
 

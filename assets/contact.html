@@ -1,75 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-	
-	<link rel="stylesheet" href="/assets/css/style.css" />
-	<title>Anita's Kitchen Groove</title>
-</head>
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/css/media.css" />
+		<title>Anita's Kitchen Groove</title>
+	</head>
 
-<body class="avenir">
-
-	<nav class=" tc sticky">
-		<div>
-			<a href="/assets/index.html" class="link dim">
-				<h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l ">Anita's</h1>
-				<div class="bottom-line"></div>
-				<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">Kitchen Groove</h2>
-			</a>
-		</div>
-
-		<div class=" tc center mt2 flex justify-center bg-white bb b--light-gray">
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-				href="/assets/index.html#about-section">About</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l "
-				href="/assets/menu.html">Menu</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l "
-				href="/assets/gallery.html">Gallery</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
-				href="/assets/contact.html">Contact</a>
-		</div>
-
-	</nav>
-
-
-<!-- Section A (Contact Form) -->
-<section id="contact-section" class="pa4">
-	<div class="measure center ph0 mh0">
-		<h2 class="tc ttu f2 pa3">Want to place an order,</h2>
-		<h3 class="f3 tc">or</h3>
-		<h2 class="tc ttu f3 pa3">Ask me a question?</h2>
-		<div class="bottom-line"></div>
-		<p class="f4 ttu tc pa2">Groovy! Please get in touch</p>
-		<div class="tc pt3 f3 link dim grow-large">
-			<i class="fas fa-hand-point-down"></i>
-		</div>
-		<form method="POST" data-netlify="true" data-netlify-recaptcha="true">
-			<div class="mt3">
-				<input type="text" class="br2 pa2 input-reset ba bg-transparent w-100" placeholder="Name" name="Name" />
-				<input type="text" class="br2 mt3 pa2 input-reset ba bg-transparent w-100" placeholder="Subject"
-					name="Subject" />
-				<input type="email" class="br2 mt3 pa2 input-reset ba bg-transparent w-100" placeholder="Email Address"
-					name="Email" />
-				<input type="text" class="br2 mt3 pa2 input-reset ba bg-transparent w-100" placeholder="Phone Number"
-					name="Phone" />
-				<textarea class="br2 mt3 pa2 input-reset ba bg-transparent w-100" placeholder="Enter Message"
-					name="Message"></textarea>
+	<body class="avenir">
+		<nav class="tc sticky">
+			<div>
+				<a href="/assets/index.html" class="link dim">
+					<h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l">
+						Anita's
+					</h1>
+					<div class="bottom-line"></div>
+					<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">
+						Kitchen Groove
+					</h2>
+				</a>
 			</div>
-			<button type="submit"
-				class="b white mt3 br3 ph5 pv2 input-reset ba b--white-025 bw1 shadow-hover pointer f5 ttu dib w-100">Send</button>
-		</form>
-	</div>
-</section>
-  <!-- Section A (Contact Form) End -->
 
+			<div class="tc center mt2 flex justify-center bg-white bb b--light-gray">
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
+					href="/assets/index.html#about-section"
+					>About</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l"
+					href="/assets/menu.html"
+					>Menu</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
+					href="/assets/gallery.html"
+					>Gallery</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
+					href="/assets/contact.html"
+					>Contact</a
+				>
+			</div>
+		</nav>
 
-
-	
+		<!-- Section A (Contact Form) -->
+		<section id="contact-section" class="pa4">
+			<div class="measure center ph0 mh0">
+				<h2 class="tc ttu f2 pa3">Want to place an order,</h2>
+				<h3 class="f3 tc">or</h3>
+				<h2 class="tc ttu f3 pa3">Ask me a question?</h2>
+				<div class="bottom-line"></div>
+				<p class="f4 ttu tc pa2">Groovy! Please get in touch</p>
+				<div class="tc pt3 f3 link dim grow-large">
+					<i class="fas fa-hand-point-down"></i>
+				</div>
+				<form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+					<div class="mt3">
+						<input
+							type="text"
+							class="br2 pa2 input-reset ba bg-transparent w-100"
+							placeholder="Name"
+							name="Name"
+						/>
+						<input
+							type="text"
+							class="br2 mt3 pa2 input-reset ba bg-transparent w-100"
+							placeholder="Subject"
+							name="Subject"
+						/>
+						<input
+							type="email"
+							class="br2 mt3 pa2 input-reset ba bg-transparent w-100"
+							placeholder="Email Address"
+							name="Email"
+						/>
+						<input
+							type="text"
+							class="br2 mt3 pa2 input-reset ba bg-transparent w-100"
+							placeholder="Phone Number"
+							name="Phone"
+						/>
+						<textarea
+							class="br2 mt3 pa2 input-reset ba bg-transparent w-100"
+							placeholder="Enter Message"
+							name="Message"
+						></textarea>
+					</div>
+					<button
+						type="submit"
+						class="b white mt3 br3 ph5 pv2 input-reset ba b--white-025 bw1 shadow-hover pointer f5 ttu dib w-100"
+					>
+						Send
+					</button>
+				</form>
+			</div>
+		</section>
+		<!-- Section A (Contact Form) End -->
 
 		<!---------------------- Footer --------------------------------------->
 		<footer class="pv3 ph3 ph5-m ph6-l black b bt white">
@@ -88,15 +133,14 @@
 				</a>
 			</div>
 			<div class="tc mt3 pt2">
-				<small class="f6 db tc">© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights
-					Reserved</small>
+				<small class="f6 db tc"
+					>© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights
+					Reserved</small
+				>
 				<small class="f6 db tc pt3"></small>
-				<p class="">Website by Wingkelinks</p></small>
+				<p class="">Website by Wingkelinks</p>
 			</div>
 		</footer>
 		<!---------------------- Footer --------------------------------------->
-
-	
-   
-</body>
+	</body>
 </html>

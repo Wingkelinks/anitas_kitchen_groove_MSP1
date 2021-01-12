@@ -1,138 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+		/>
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/css/media.css" />
+		<title>Anita's Kitchen Groove</title>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-	<link rel="stylesheet" href="/assets/css/style.css" />
-	<title>Anita's Kitchen Groove</title>
-</head>
+	<body class="avenir">
+		<nav class="tc sticky">
+			<div>
+				<a href="/assets/index.html" class="link dim">
+					<h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l">
+						Anita's
+					</h1>
+					<div class="bottom-line"></div>
+					<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">
+						Kitchen Groove
+					</h2>
+				</a>
+			</div>
 
-<body class="avenir">
+			<div class="tc center mt2 flex justify-center bg-white bb b--light-gray">
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
+					href="/assets/index.html#about-section"
+					>About</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l"
+					href="/assets/menu.html"
+					>Menu</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
+					href="/assets/gallery.html"
+					>Gallery</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
+					href="/assets/contact.html"
+					>Contact</a
+				>
+			</div>
+		</nav>
 
-	<nav class=" tc sticky">
-		<div>
-			<a href="/assets/index.html" class="link dim">
-        <h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l ">Anita's</h1>
-        <div class="bottom-line"></div>
-				<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">Kitchen Groove</h2>
-			</a>
-		</div>
+		<!---------------------- Menu Items --------------------------------------->
 
-		<div class=" tc center mt2 flex justify-center bg-white bb b--light-gray">
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-				href="/assets/index.html#about-section">About</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l "
-				href="/assets/menu.html">Menu</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l "
-				href="/assets/gallery.html">Gallery</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
-				href="/assets/contact.html">Contact</a>
-		</div>
-
-	</nav>
-
-<!---------------------- Menu Items --------------------------------------->
-
-<section id="menu-section" class=" cf w-100 pr2 pl2 pl3-m pr3-m pl3-ns pr3-ns ">
-  
- <div class="menu-heading tc">
-     <h3 class="pt4 f2 ">Menu</h3>
-     <p class="f4 pb4">All items are made to order, using quality ingredients. </p>
- </div>
- <!-- Consider including a glossary of terms somewhere -->
- <!-- <div class="menu-heading tc pa">
+		<section
+			id="menu-section"
+			class="cf w-100 pr2 pl2 pl3-m pr3-m pl3-ns pr3-ns"
+		>
+			<div class="menu-heading tc">
+				<h3 class="pt4 f2">Menu</h3>
+				<p class="f4 pb4">
+					All items are made to order, using quality ingredients.
+				</p>
+			</div>
+			<!-- Consider including a glossary of terms somewhere -->
+			<!-- <div class="menu-heading tc pa">
     <h4 class="pa f3">Rusks</h4>
     <p class="f4">Rusks is the anglicized term for beskuit and is a traditional Afrikaner breakfast meal or snack. They have been dried in South Africa since the late 1690s as a way of preserving bread, especially when travelling long distances without refrigeration. ... Rusks are essentially double-baked bread dough.</p>
 </div> -->
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3 ">
-        <img style="background-image:url(/images/product/AnitasKitchen-6.jpg);" 
-        class=" db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Buttermilk Rusks</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-4.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Breakfast Rusks</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-11.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Cranberry Rusks</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-16.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Chocolate Chip Rusks</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-20.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Gluten Free Bread</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 12</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-22.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Anita's Atchar</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 8</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-18.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Hertzoggies (Coconut & Jam Biscuits)</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 6</h3>
-      </a>
-    </article>
-    <article class="fl w-100 w-50-m  w-25-ns pa2-ns">
-      <div class="aspect-ratio aspect-ratio--4x3">
-        <img style="background-image:url(/images/product/AnitasKitchen-2.jpg);" 
-        class="db bg-center cover aspect-ratio--object" />
-      </div>
-      <a href="#0" class="ph2 ph0-ns pb3 link db">
-        <h3 class="f5 f4-ns mb0 black-90">Custard Biscuits</h3>
-        <h3 class="f6 f5 fw4 mt2 black-60">GBP 6</h3>
-      </a>
-    </article>
-   
-  </section>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-6.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Buttermilk Rusks</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-4.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Breakfast Rusks</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-11.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Cranberry Rusks</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-16.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Chocolate Chip Rusks</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 10</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-20.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Gluten Free Bread</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 12</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-22.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Anita's Atchar</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 8</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-18.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">
+						Hertzoggies (Coconut & Jam Biscuits)
+					</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 6</h3>
+				</a>
+			</article>
+			<article class="fl w-100 w-50-m w-25-ns pa2-ns">
+				<div class="aspect-ratio aspect-ratio--4x3">
+					<img
+						style="background-image: url(/images/product/AnitasKitchen-2.jpg)"
+						class="db bg-center cover aspect-ratio--object"
+					/>
+				</div>
+				<a href="#0" class="ph2 ph0-ns pb3 link db">
+					<h3 class="f5 f4-ns mb0 black-90">Custard Biscuits</h3>
+					<h3 class="f6 f5 fw4 mt2 black-60">GBP 6</h3>
+				</a>
+			</article>
+		</section>
 
-<!---------------------- Menu Items --------------------------------------->
-	
+		<!---------------------- Menu Items --------------------------------------->
 
 		<!---------------------- Footer --------------------------------------->
 		<footer class="pv3 ph3 ph5-m ph6-l black b bt white">
@@ -151,16 +197,14 @@
 				</a>
 			</div>
 			<div class="tc mt3 pt2">
-				<small class="f6 db tc">© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights
-					Reserved</small>
+				<small class="f6 db tc"
+					>© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights
+					Reserved</small
+				>
 				<small class="f6 db tc pt3"></small>
-				<p class="">Website by Wingkelinks</p></small>
+				<p class="">Website by Wingkelinks</p>
 			</div>
 		</footer>
 		<!---------------------- Footer --------------------------------------->
-
-	
-
-   
-</body>
+	</body>
 </html>

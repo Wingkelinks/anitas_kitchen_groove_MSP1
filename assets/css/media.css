@@ -1,4 +1,23 @@
-// Smartphones
+/****** Smartphones ******/
+
+/* All grid items to become 1 column */
 
 @media (max-width: 500px) {
+	#gallery-section > div {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	#about-section .about-container {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
 }
+
+
+
+/* Tachyons breakpoints
+
+-ns ‘not small’, media query is screen and (min-width: 30em)
+-m ‘medium’, media query is screen and (min-width: 30em) and (max-width: 60em)
+-l ‘large’, media query is screen and (min-width: 60em) */

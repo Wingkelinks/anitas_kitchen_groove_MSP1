@@ -1,214 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"
+		/>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-		integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
+			integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="/assets/css/style.css" />
+		<link rel="stylesheet" href="/assets/css/media.css" />
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css"
-		integrity="sha512-ZKX+BvQihRJPA8CROKBhDNvoc2aDMOdAlcm7TUQY+35XYtrd3yh95QOOhsPDQY9QnKE0Wqag9y38OIgEvb88cA=="
-		crossorigin="anonymous" />
-	<link rel="stylesheet" href="/assets/css/style.css" />
-	<title>Anita's Kitchen Groove</title>
-</head>
+		<title>Anita's Kitchen Groove</title>
+	</head>
 
-<body class="avenir">
-
-	<nav class=" tc sticky">
-		<div>
-			<a href="/assets/index.html" class="link dim">
-				<h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l ">Anita's</h1>
-				<div class="bottom-line"></div>
-				<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">Kitchen Groove</h2>
-			</a>
-		</div>
-
-		<div class=" tc center mt2 flex justify-center bg-white bb b--light-gray">
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
-				href="/assets/index.html#about-section">About</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l "
-				href="/assets/menu.html">Menu</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l "
-				href="/assets/gallery.html">Gallery</a>
-			<a class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
-				href="/assets/contact.html">Contact</a>
-		</div>
-
-	</nav>
-
-	<!---------------------- Gallery --------------------------------------->
-	<!-- <section id="gallery-section">
-		<div class="filters filter-button-group">
-			<ul>
-				<h4>
-					<li class="active" data-filter="*">All</li>
-					<li data-filter=".nature">Nature</li>
-					<li data-filter=".humans">Humans</li>
-					<li data-filter=".animals">Animals</li>
-				</h4>
-			</ul>
-		</div>
-
-		<div class="container grid">
-
-
- 
-			<div class="content nature item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="nature" data-title="Nature">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
+	<body class="avenir">
+		<nav class="tc sticky">
+			<div>
+				<a href="/assets/index.html" class="link dim">
+					<h1 class="grow near-white mb0 mt2 i fw6 f1 f-subheadline-l">
+						Anita's
+					</h1>
+					<div class="bottom-line"></div>
+					<h2 class="grow near-white mt0 mb0 ttu tracked fw4 lh-copy">
+						Kitchen Groove
+					</h2>
 				</a>
 			</div>
 
-			<div class="content nature item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="nature" data-title="Nature">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
+			<div class="tc center mt2 flex justify-center bg-white bb b--light-gray">
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-green dib pa3 ph4-l"
+					href="/assets/index.html#about-section"
+					>About</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-blue dib pa3 ph4-l"
+					href="/assets/menu.html"
+					>Menu</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-pink dib pa3 ph4-l"
+					href="/assets/gallery.html"
+					>Gallery</a
+				>
+				<a
+					class="near-black f7 f6-m f5-l fw6 ttu tracked link bg-animate black-80 hover-bg-light-yellow dib pa3 ph4-l"
+					href="/assets/contact.html"
+					>Contact</a
+				>
+			</div>
+		</nav>
+
+		<!---------------------- Gallery --------------------------------------->
+		<!-- Gallery with Lightbox (Lokesh Dhakar), implementation assisted by youtube tuturial by Live Bloggger  -->
+		<!-- ---------------------------------------------------------------- -->
+		<section id="gallery-section">
+			<div class="gallery-container">
+				<a
+					data-lightbox="products"
+					data-title="Cranberry Rusks"
+					href="/images/product/AnitasKitchen-11.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-11.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Custard Biscuits"
+					href="/images/product/AnitasKitchen-2.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-2.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Breakfast Rusks"
+					href="/images/product/AnitasKitchen-4.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-4.jpg" alt="" />
+				</a>
+				<a
+					data-lightbox="products"
+					data-title="Cranberry Rusks"
+					href="/images/product/AnitasKitchen-13.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-13.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Buttermilk Rusks"
+					href="/images/product/AnitasKitchen-6.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-6.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Chocoloate Chip Rusks"
+					href="/images/product/AnitasKitchen-17.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-17.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Hertzoggies (Jam & Coconut Biscuits)"
+					href="/images/product/AnitasKitchen-18.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-18.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Chocoloate Chip Rusks"
+					href="/images/product/AnitasKitchen-16.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-16.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Top shelf ingredients"
+					href="/images/product/AnitasKitchenBATCH2-25.jpg"
+				>
+					<img src="/images/product/AnitasKitchenBATCH2-25.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Anita's Atchar Relish"
+					href="/images/product/AnitasKitchen-23.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-23.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Pantry Staples"
+					href="/images/product/AnitasKitchen-8.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-8.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Fresh eggs"
+					href="/images/product/AnitasKitchenBATCH2-29.jpg"
+				>
+					<img src="/images/product/AnitasKitchenBATCH2-29.jpg" alt="" />
+				</a>
+				<a
+					data-lightbox="products"
+					data-title="Hertzoggies (Jam & Coconut Biscuits)"
+					href="/images/product/AnitasKitchen-19.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-19.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Essential Ingredients"
+					href="/images/product/AnitasKitchen-10.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-10.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Gluten Free Bread"
+					href="/images/product/AnitasKitchen-20.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-20.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Fresh Coriander"
+					href="/images/product/AnitasKitchen-15.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-15.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="South African touches"
+					href="/images/product/AnitasKitchenBATCH2-28.jpg"
+				>
+					<img src="/images/product/AnitasKitchenBATCH2-28.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Gluten Free Bread"
+					href="/images/product/AnitasKitchen-21.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-21.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Anita's Atchar Relish - perfect cheese complement"
+					href="/images/product/AnitasKitchen-22.jpg"
+				>
+					<img src="/images/product/AnitasKitchen-22.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Atchar, made with love"
+					href="/images/people/AnitasKitchenBATCH2-2.jpg"
+				>
+					<img src="/images/people/AnitasKitchenBATCH2-2.jpg" alt="" />
+				</a>
+
+				<a
+					data-lightbox="products"
+					data-title="Scrumptious Atchar"
+					href="/images/product/AnitasKitchenBATCH2-24.jpg"
+				>
+					<img src="/images/product/AnitasKitchenBATCH2-24.jpg" alt="" />
 				</a>
 			</div>
+		</section>
+		<!---------------------- Gallery --------------------------------------->
 
-			<div class="content nature item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="nature" data-title="Nature">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
+		<!---------------------- Footer --------------------------------------->
+		<footer class="pv3 ph3 ph5-m ph6-l black b bt white">
+			<div class="tc">
+				<a>
+					<i class="fab fa-facebook f3 dib ph2 link mid-gray dim"></i>
+				</a>
+				<a>
+					<i class="fab fa-instagram f3 dib ph2 link mid-gray dim"></i>
+				</a>
+				<a>
+					<i class="fab fa-youtube-square f3 dib ph2 link mid-gray dim"></i>
+				</a>
+				<a>
+					<i class="fas fa-envelope f3 dib ph2 link mid-gray dim"></i>
 				</a>
 			</div>
-
-			<div class="content nature item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="nature" data-title="Nature">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
+			<div class="tc mt3 pt2">
+				<small class="f6 db tc"
+					>© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights
+					Reserved</small
+				>
+				<small class="f6 db tc pt3"></small>
+				<p class="">Website by Wingkelinks</p>
 			</div>
+		</footer>
+		<!---------------------- Footer --------------------------------------->
 
-		
-           
-			<div class="content humans item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="humans" data-title="Humans">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
- 
-			<div class="content humans item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="humans" data-title="Humans">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
+		<!-- JQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-			<div class="content humans item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="humans" data-title="Humans">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
+		<!-- Lightbox -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
-			<div class="content humans item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="humans" data-title="Humans">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
-
-
-
-			<div class="content animals item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="animals" data-title="Animals">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
-
-			<div class="content animals item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="animals" data-title="Animals">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
-
-			<div class="content animals item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="animals" data-title="Animals">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
-
-			<div class="content animals item">
-				<a href="/images/product/AnitasKitchen-11.jpg" data-lightbox="animals" data-title="Animals">
-					<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-				</a>
-			</div>
-
-			
-		</div>
-
-
-
-
-	</section> -->
-
-	<!---------------------- Gallery --------------------------------------->
-	<section id="gallery-section">
-		<div class="gallery-container">
-			<a data-lightbox="products" data-title="Cranberry Rusks" href="/images/product/AnitasKitchen-11.jpg">
-				<img src="/images/product/AnitasKitchen-11.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Cranberry Rusks" href="/images/product/AnitasKitchen-12.jpg">
-				<img src="/images/product/AnitasKitchen-12.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Cranberry Rusks" href="/images/product/AnitasKitchen-13.jpg">
-				<img src="/images/product/AnitasKitchen-13.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Chocoloate Chip Rusks" href="/images/product/AnitasKitchen-16.jpg">
-				<img src="/images/product/AnitasKitchen-16.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Chocoloate Chip Rusks" href="/images/product/AnitasKitchen-17.jpg">
-				<img src="/images/product/AnitasKitchen-17.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Hertzoggies (Jam & Coconut Biscuits)" href="/images/product/AnitasKitchen-18.jpg">
-				<img src="/images/product/AnitasKitchen-18.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Hertzoggies (Jam & Coconut Biscuits)" href="/images/product/AnitasKitchen-19.jpg">
-				<img src="/images/product/AnitasKitchen-19.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Gluten Free Bread" href="/images/product/AnitasKitchen-20.jpg">
-				<img src="/images/product/AnitasKitchen-20.jpg" alt="">
-			</a>
-			<a data-lightbox="products" data-title="Gluten Free Bread" href="/images/product/AnitasKitchen-21.jpg">
-				<img src="/images/product/AnitasKitchen-21.jpg" alt="">
-			</a>
-		</div>
-	</section>
-
-	<!---------------------- Footer --------------------------------------->
-	<footer class="pv3 ph3 ph5-m ph6-l black b bt white">
-		<div class="tc">
-			<a>
-				<i class="fab fa-facebook f3 dib ph2 link mid-gray dim"></i>
-			</a>
-			<a>
-				<i class="fab fa-instagram f3 dib ph2 link mid-gray dim"></i>
-			</a>
-			<a>
-				<i class="fab fa-youtube-square f3 dib ph2 link mid-gray dim"></i>
-			</a>
-			<a>
-				<i class="fas fa-envelope f3 dib ph2 link mid-gray dim"></i>
-			</a>
-		</div>
-		<div class="tc mt3 pt2">
-			<small class="f6 db tc">© 2016 <b class="ttu">SOME COMPANY Inc</b>., All Rights
-				Reserved</small>
-			<small class="f6 db tc pt3"></small>
-			<p class="">Website by Wingkelinks</p></small>
-		</div>
-	</footer>
-	<!---------------------- Footer --------------------------------------->
-
-
-	<!-- JQuery -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-	<!-- Lightbox -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
-
-	<!-- Local JS File -->
-	<script src="/assets/js/main.js"></script>
-
-</body>
-
+		<!-- Local JS File -->
+		<script src="/assets/js/main.js"></script>
+	</body>
 </html>

@@ -34,15 +34,31 @@
 
 /*---------------------------- Navigation */
 
+/* Text image underlay option */
+/* Courtesy css-tricks.com */
+
+/* nav h1 {
+	color: white;
+	background: url(/images/What-Makes-African-Fabrics-Popular-1024x647.png)
+		no-repeat;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+} */
+
 /* Top part of nav styling */
 body > nav > div:nth-child(1) {
-	background: url();
 }
 
 /* Whole nav stlying */
 body > nav {
 	background: #000b14;
 }
+
+/* Background image option for bottom part of nav bar */
+
+/* body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
+	background: url(/images/What-Makes-African-Fabrics-Popular-1024x647.png);
+} */
 
 /* Overide tachyon default dotted outline on .link */
 .link:focus {
@@ -72,13 +88,13 @@ body > nav {
 /*---------------------------- Header & showcase content */
 
 /*---------------------------- About section */
-
-.about-image {
-	background: url(/images/people/AnitasKitchenBATCH2-18cropped.jpg) no-repeat
-		center center;
-	background-size: cover;
-	width: 100%;
-	height: auto;
+#about-section {
+	background-color: #dbfbff;
+}
+#about-section .about-container {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	align-items: center;
 }
 
 /*---------------------------- About section */
@@ -86,58 +102,16 @@ body > nav {
 /*---------------------------- Testimonials section */
 
 #testimonial-section {
-	background-color: #ff428e;
 }
-/* Social Container with Slider */
-.social-slider {
-	position: relative;
-	/* border: 1px solid red; */
+.slick-next:before,
+.slick-prev:before {
+	color: #ff6d2e;
 }
 
-.social-slider .next {
-	position: absolute;
-	top: 50%;
-	right: 40px;
-	font-size: 2em;
-	color: #333;
-	cursor: pointer;
+.slick-dots li button:before {
+	font-size: 10px;
 }
 
-.social-slider .prev {
-	position: absolute;
-	top: 50%;
-	left: 40px;
-	font-size: 2em;
-	color: #333;
-	cursor: pointer;
-}
-
-.social-slider .social-wrapper {
-	width: 84%;
-	height: 420px;
-	margin: 20px auto;
-	overflow: hidden;
-	/* border: 1px dashed red; */
-}
-
-.social-slider .social-wrapper .post {
-	width: 84%;
-	height: 350px;
-	margin: 0px 10px;
-	display: inline-block;
-	background: white;
-	border-radius: 5px;
-}
-
-.social-slider .social-wrapper .post .slider-image {
-	width: 100%;
-	min-height: 350px;
-}
-
-.social-wrapper .slick-initialized .slick-slider {
-	margin-top: 0;
-	margin-bottom: 0;
-}
 /*---------------------------- Testimonials section */
 
 /*---------------------------- Arrow animation */
@@ -304,8 +278,8 @@ body > nav {
 .gallery-container {
 	max-width: 900px;
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 4px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 4px 6px;
 	margin: 32px auto;
 }
 
@@ -313,6 +287,13 @@ body > nav {
 	width: 100%;
 	height: 200px;
 	object-fit: cover;
+}
+#gallery-section > div > a {
+	cursor: zoom-in;
+}
+
+.lightboxOverlay {
+	outline: none;
 }
 /* --------------------------- Gallery */
 
@@ -348,5 +329,6 @@ body > nav {
 /*---------------------------- Footer */
 footer {
 	background-color: #000b14;
+	background: url(/images/What-Makes-African-Fabrics-Popular-1024x647.png);
 }
 /*---------------------------- Footer */

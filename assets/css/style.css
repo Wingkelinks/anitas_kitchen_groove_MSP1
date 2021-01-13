@@ -29,24 +29,60 @@
 	color: #7ad7ff;
 	color: #ff428e;
 	color: #000b14;
+	color: #613d97;
+	color: #7ac043;
 }
 /*---------------------------- Color palette 1 */
 
+.bottom-line {
+	height: 2px;
+	width: 3rem;
+	background: #ff428e;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
+.bottom-line2 {
+	height: 2px;
+	width: 3rem;
+	background: #dbfbff;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
 /*---------------------------- Navigation */
 
-/* Text image underlay option */
-/* Courtesy css-tricks.com */
-
-/* nav h1 {
-	color: white;
-	background: url(/images/What-Makes-African-Fabrics-Popular-1024x647.png)
-		no-repeat;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-} */
-
-/* Top part of nav styling */
-body > nav > div:nth-child(1) {
+nav {
+	z-index: 1;
+}
+/* Custom hover colours nav items */
+body
+	> nav
+	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
+	> a:nth-child(1):hover {
+	background-color: #613d97;
+	color: #fff;
+}
+body
+	> nav
+	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
+	> a:nth-child(2):hover {
+	background-color: #ff6d2e;
+	color: #fff;
+}
+body
+	> nav
+	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
+	> a:nth-child(3):hover {
+	background-color: #7ac043;
+	color: #fff;
+}
+body
+	> nav
+	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
+	> a:nth-child(4):hover {
+	background-color: #ff428e;
+	color: #fff;
 }
 
 /* Whole nav stlying */
@@ -56,9 +92,10 @@ body > nav {
 
 /* Background image option for bottom part of nav bar */
 
-/* body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
-	background: url(/images/What-Makes-African-Fabrics-Popular-1024x647.png);
-} */
+body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
+	background: url(/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
+		center right;
+}
 
 /* Overide tachyon default dotted outline on .link */
 .link:focus {
@@ -76,20 +113,20 @@ body > nav {
 
 /*---------------------------- Header & showcase content */
 #showcase {
-	background: url(/images/product/AnitasKitchen-16.jpg) no-repeat center top
-		fixed;
+	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.5)),
+		url(/images/product/AnitasKitchen-20.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	background-color: #000b14;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 /*---------------------------- Header & showcase content */
 
 /*---------------------------- About section */
 #about-section {
-	background-color: #dbfbff;
+	background-color: #ff6d2e;
 }
 #about-section .about-container {
 	display: grid;
@@ -329,6 +366,8 @@ body > nav {
 /*---------------------------- Footer */
 footer {
 	background-color: #000b14;
-	background: url(/images/What-Makes-African-Fabrics-Popular-1024x647.png);
+	background: url(/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
+		center center;
 }
+
 /*---------------------------- Footer */

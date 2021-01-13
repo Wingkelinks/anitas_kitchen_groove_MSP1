@@ -1,12 +1,4 @@
-// Slick Slider Autoplay
-// $(".social-wrapper").slick({
-// 	slidesToShow: 1,
-// 	slidesToScroll: 1,
-// 	autoplay: true,
-// 	autoplaySpeed: 3000,
-// 	nextArrow: $(".next"),
-// 	prevArrow: $(".prev"),
-// });
+// Slick Slider Testimonials
 
 $(document).ready(function () {
 	$(".testimonial-slider").slick({
@@ -25,5 +17,3 @@ $(document).ready(function () {
 		easing: "linear",
 	});
 });
-
-// Lightbox Image Gallery

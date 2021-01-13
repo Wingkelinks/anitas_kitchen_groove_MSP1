@@ -12,9 +12,16 @@
 		display: grid;
 		grid-template-columns: 1fr;
 	}
+
+	/* Hero Image */
+
+	#showcase {
+		background: url(/images/product/AnitasKitchen-20.jpg) no-repeat center
+			center fixed;
+		background-size: cover;
+	}
+	
 }
-
-
 
 /* Tachyons breakpoints
 

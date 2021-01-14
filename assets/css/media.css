@@ -13,14 +13,26 @@
 		grid-template-columns: 1fr;
 	}
 
-	/* Hero Image */
+	#contact-section {
+		display: grid;
+		grid-template-columns: 1fr;
 
-	#showcase {
-		background: url(/images/product/AnitasKitchen-20.jpg) no-repeat center
-			center fixed;
-		background-size: cover;
+		margin-top: 11rem;
 	}
-	
+
+	#contact-section > div.contact-img1 {
+		width: auto;
+		height: 40vh;
+		border-radius: 10px;
+	}
+
+	/* Footer */
+
+	body > footer > div {
+		display: grid;
+		grid-template-rows: 1fr 1fr 1fr;
+		align-items: center;
+	}
 }
 
 /* Tachyons breakpoints

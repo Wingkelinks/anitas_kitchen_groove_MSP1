@@ -337,15 +337,23 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 /* --------------------------- Contact Form */
 
 #contact-section {
-	margin-top: 12rem;
+	margin-top: 14rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
 }
 
-.bottom-line {
-	height: 2px;
-	width: 3rem;
-	background: #ff428e;
-	display: block;
-	margin: 0 auto 1rem auto;
+#contact-section > div.measure.center.ph0.mh0 > div {
+	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.5)),
+		url(/images/product/AnitasKitchenBATCH2-30.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+#contact-section .contact-img1 {
+	background: url(/images/people/AnitasKitchenBATCH2-20.jpg) no-repeat center
+		center;
+	background-size: cover;
+	border-radius: 50%;
 }
 
 #contact-section i {

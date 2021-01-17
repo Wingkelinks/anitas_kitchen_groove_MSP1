@@ -4,6 +4,14 @@
 	padding: 0;
 }
 
+body {
+	font-family: "Yusei Magic", sans-serif;
+}
+
+h1,
+h2 {
+	font-family: "Permanent Marker", cursive;
+}
 /*--------------------------- Color palette 1 */
 .color-palette-1 {
 	color: #211930;
@@ -50,11 +58,20 @@
 	margin: 0 auto 1rem auto;
 }
 
+.bottom-line3 {
+	height: 2px;
+	width: 3rem;
+	background: #ffb700;
+	display: block;
+	margin: 0 auto 1rem auto;
+}
+
 /*---------------------------- Navigation */
 
 nav {
 	z-index: 1;
 }
+
 /* Custom hover colours nav items */
 body
 	> nav
@@ -90,7 +107,7 @@ body > nav {
 	background: #000b14;
 }
 
-/* Background image option for bottom part of nav bar */
+/* Background image for bottom part of nav bar */
 
 body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	background: url(/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
@@ -337,23 +354,25 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 /* --------------------------- Contact Form */
 
 #contact-section {
-	margin-top: 14rem;
+	margin-top: 13rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	grid-gap: 1em;
+	grid-gap: 15px;
+	background-color: #ff6d2e;
 }
 
-#contact-section > div.measure.center.ph0.mh0 > div {
-	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.5)),
+#contact-section > div.center.ph0.mh0 > div {
+	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.6)),
 		url(/images/product/AnitasKitchenBATCH2-30.jpg) no-repeat center center;
 	background-size: cover;
+	border: 4px solid #7ad7ff;
 }
 
 #contact-section .contact-img1 {
 	background: url(/images/people/AnitasKitchenBATCH2-20.jpg) no-repeat center
 		center;
 	background-size: cover;
-	border-radius: 50%;
+	border: 6px solid #7ad7ff;
 }
 
 #contact-section i {
@@ -362,12 +381,12 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 
 /* Overide tachyon styling to center button */
 #contact-section button {
-	background-color: #d6f3ff;
-	color: #7ad7ff;
+	background-color: #7ad7ff;
+	color: #794fb8;
 }
 #contact-section button:hover {
-	background-color: #ff99c2;
-	color: #ffffff;
+	background-color: #794fb8;
+	color: #7ad7ff;
 }
 /* --------------------------- Contact Form */
 

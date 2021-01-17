@@ -1,4 +1,4 @@
-/****** Smartphones ******/
+/* Smartphones */
 
 /* All grid items to become 1 column */
 
@@ -16,7 +16,6 @@
 	#contact-section {
 		display: grid;
 		grid-template-columns: 1fr;
-
 		margin-top: 11rem;
 	}
 
@@ -24,6 +23,7 @@
 		width: auto;
 		height: 40vh;
 		border-radius: 10px;
+		border-width: 4px;
 	}
 
 	/* Footer */
@@ -35,6 +35,27 @@
 	}
 }
 
+/* Tablet only */
+@media (min-width: 500px) and (max-width: 800px) {
+	#contact-section {
+		margin-top: 11rem;
+	}
+}
+
+/* Targeting small laptops and tablets */
+@media (min-width: 500px) and (max-width: 1100px) {
+	#contact-section .contact-img1 {
+		width: auto;
+		height: 100vh;
+		border-radius: 15px;
+		border-width: 4px;
+	}
+}
+
+/* Large screens */
+
+@media (max-width: 1500px) {
+}
 /* Tachyons breakpoints
 
 -ns ‘not small’, media query is screen and (min-width: 30em)

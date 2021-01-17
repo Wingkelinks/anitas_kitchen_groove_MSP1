@@ -84,9 +84,23 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ### Existing Features
 
+- A Home page featuring a hero/showcase image with links to social sites, the menu and contact page.
+
+- The Home page also includes a carousel, showcasing customer testimonials/reviews.
+
+- The Menu page features an attractive gallery of images, that each include 'hidden children' that become visible when the user hovers over the image.
+
+- The Gallery page displays images in the form of a responsive grid. It also includes a Lightbox feature, allowing the user to view 'magnified' versions of the images.
+
+- A Contact page with a contact form.
+
+- A Navbar and a Footer feature on all pages.
+
 ### Features Left to Implement
 
-- Online payment feature
+- Potentially an online payment feature.
+
+- An 'add to cart' style feature.
 
 ##
 
@@ -94,8 +108,10 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ##### 1. Languages
 
-- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [HTML5](https://html.com/html5/)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://www.javascript.com/)
+- [JQuery](https://jquery.com/)
 
 ##### 2. Integrations
 
@@ -103,10 +119,11 @@ Up until now, the business owner has promoted the business and dealt with orders
 - [Google Fonts](https://fonts.google.com/)
 - [Tachyons](https://tachyons.io/)
 - [LightBox2](https://lokeshdhakar.com/projects/lightbox2/)
+- [Slick Carousel](https://kenwheeler.github.io/slick/)
 
 ##### 3. Workspace, version control and Repository storage
 
-- [GitPod](https://github.com/mkuti/corklagos-venture/blob/master/gitpod.io) - IDE
+- [Visual Studio Code](https://code.visualstudio.com/) - Coding Editor
 - [Git](https://git-scm.com/) - Version Control
 - [GitHub](https://github.com/) - Repository Storage
 
@@ -114,13 +131,30 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ## Testing
 
+###[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+
+- Throughout the development process, DevTools was used for testing responsive behaviour on small, medium and large screen sizes.
+- It was also consistently used to debug and prototype CSS.
+
+###[W3C Markup Validation Service](https://validator.w3.org/)
+
+- Used to check that my HTML and CSS markup was in order and in line with best practice methods.
+
+###[Lighthouse](https://developers.google.com/web/tools/lighthouse)
+
+- Used to check performance, accessibility and SEO potential of the website.
+
 ## Deployment
 
 ## Credits
 
 ### Content
 
+- All the content in the website is original - and is property of Anita's Kitchen Groove Ltd.
+
 ### Media
+
+- Photography by [Elizabeth Brown](https://www.elizabethbrown.uk/)
 
 ### Acknowledgments
 

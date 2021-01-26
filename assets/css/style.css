@@ -324,12 +324,16 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 #menu-section {
 	margin-top: 12.15rem;
 }
+
 /* Overide Tachyon z-index class to position images behind nav on scroll */
 .aspect-ratio--object {
 	z-index: -1;
 }
-
-#menu-section > article > a > h3.f6.f5.mt2.black-60 {
+#menu-section
+	> div.menu-container.flex.flex-wrap.justify-center
+	> article
+	> div.ph2.ph0-ns.pb3.link
+	> h3.f6.fw4.mt2.black-60 {
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -384,11 +388,11 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 #contact-section {
 	display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	grid-gap: 15px;
+	grid-gap: 1rem;
 	background-color: #ff6d2e;
 }
 
-#contact-section > div.center.ph0.mh0 > div {
+#contact-section > div.ph0.mh0 > div {
 	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.6)),
 		url(/images/product/AnitasKitchenBATCH2-30.jpg) no-repeat center center;
 	background-size: cover;
@@ -424,7 +428,4 @@ footer {
 		center center;
 }
 
-
 /*---------------------------- Footer */
-
-

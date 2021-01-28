@@ -131,22 +131,28 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ## Testing
 
-###[Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+### [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 
 - Throughout the development process, DevTools was used for testing responsive behaviour on small, medium and large screen sizes.
 - It was also consistently used to debug and prototype CSS.
 
-###[W3C Markup Validation Service](https://validator.w3.org/)
+### [W3C Markup Validation Service](https://validator.w3.org/)
 
 - Used to check that my HTML and CSS markup was in order and in line with best practice methods.
 
-###[Lighthouse](https://developers.google.com/web/tools/lighthouse)
+### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 - Used to check performance, accessibility and SEO potential of the website.
 
 ## Deployment
 
+-
+
 ## Credits
+
+- [Tachyons Components](http://tachyons.io/components/)
+- [LightBox2](https://lokeshdhakar.com/projects/lightbox2/)
+- [Slick Carousel](https://kenwheeler.github.io/slick/)
 
 ### Content
 
@@ -155,6 +161,7 @@ Up until now, the business owner has promoted the business and dealt with orders
 ### Media
 
 - Photography by [Elizabeth Brown](https://www.elizabethbrown.uk/)
+- Image used in nav and footer obtained from [Pinterest](https://www.pinterest.de/pin/381187555933357591/) - artist unkown
 
 ### Acknowledgments
 

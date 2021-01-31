@@ -1,7 +1,4 @@
 /* Smartphones */
-
-/* All grid items to become 1 column */
-
 @media (max-width: 500px) {
 	/* About page */
 	#about-section .about-container {
@@ -42,7 +39,6 @@
 	#shipping-info-section {
 		margin-top: 7rem;
 	}
-	/* Contact page end */
 
 	/* Footer */
 	body > footer > div {
@@ -76,16 +72,17 @@
 		display: grid;
 		grid-template-columns: 1fr;
 	}
+
 	#contact-section .contact-img1 {
 		width: auto;
 		height: 60vh;
 		border-radius: 15px;
 		border-width: 4px;
 	}
+
 	#shipping-info-section {
 		margin-top: 8rem;
 	}
-	/* Contact page end */
 }
 
 /* Small laptops  */
@@ -104,24 +101,3 @@
 		margin-top: 10rem;
 	}
 }
-
-/* Large screens */
-/* @media (max-width: 1800px) {
-	#about-section .about-container  {
-		display: grid;
-		grid-template-columns: 2fr 1fr;
-	}
-
-	#about-section .about-container p{
-		font-size: 1.8rem;
-	}
-	#about-section .about-container h3{
-		font-size: 3rem;
-	}
-
-} */
-/* Tachyons breakpoints
-
--ns ‘not small’, media query is screen and (min-width: 30em)
--m ‘medium’, media query is screen and (min-width: 30em) and (max-width: 60em)
--l ‘large’, media query is screen and (min-width: 60em) */

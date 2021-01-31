@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 html,
 body {
 	overscroll-behavior: none;
@@ -44,6 +45,7 @@ body {
 	color: #613d97;
 	color: #7ac043;
 }
+
 /*---------------------------- Color palette 1 */
 
 .bottom-line {
@@ -74,7 +76,6 @@ body {
 
 nav {
 	z-index: 1;
-	transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
 }
 
 /* Custom hover colours nav items */
@@ -85,6 +86,7 @@ body
 	background-color: #613d97;
 	color: #fff;
 }
+
 body
 	> nav
 	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
@@ -92,6 +94,7 @@ body
 	background-color: #ff6d2e;
 	color: #fff;
 }
+
 body
 	> nav
 	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
@@ -99,6 +102,7 @@ body
 	background-color: #7ac043;
 	color: #fff;
 }
+
 body
 	> nav
 	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
@@ -115,7 +119,7 @@ body > nav {
 /* Background image for bottom part of nav bar */
 
 body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
-	background: url(/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
+	background: url(/assets/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
 		center right;
 }
 
@@ -136,7 +140,8 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 /*---------------------------- Header & showcase content */
 #showcase {
 	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.5)),
-		url(/images/product/AnitasKitchen-20.jpg) no-repeat center center fixed;
+		url(/assets/images/product/AnitasKitchen-20.jpg) no-repeat center center
+			fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -150,14 +155,17 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 #about-section {
 	background-color: #ff6d2e;
 }
+
 #about-section .about-container {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	align-items: center;
 }
+
 #about-section .about-container p {
 	font-family: "Montserrat", sans-serif;
 }
+
 /*---------------------------- About section */
 
 /*---------------------------- Testimonials section */
@@ -165,6 +173,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 #testimonial-section p {
 	font-family: "Montserrat", sans-serif;
 }
+
 .slick-next:before,
 .slick-prev:before {
 	color: #ff6d2e;
@@ -176,150 +185,6 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 
 /*---------------------------- Testimonials section */
 
-/*---------------------------- Arrow animation */
-
-/* Hover.css */
-/* Bob */
-@-webkit-keyframes hvr-bob {
-	0% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-	}
-	50% {
-		-webkit-transform: translateY(-4px);
-		transform: translateY(-4px);
-	}
-	100% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-	}
-}
-@keyframes hvr-bob {
-	0% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-	}
-	50% {
-		-webkit-transform: translateY(-4px);
-		transform: translateY(-4px);
-	}
-	100% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-	}
-}
-@-webkit-keyframes hvr-bob-float {
-	100% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-	}
-}
-@keyframes hvr-bob-float {
-	100% {
-		-webkit-transform: translateY(-8px);
-		transform: translateY(-8px);
-	}
-}
-.hvr-bob {
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: perspective(1px) translateZ(0);
-	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-}
-.hvr-bob:hover,
-.hvr-bob:focus,
-.hvr-bob:active {
-	-webkit-animation-name: hvr-bob-float, hvr-bob;
-	animation-name: hvr-bob-float, hvr-bob;
-	-webkit-animation-duration: 0.3s, 1.5s;
-	animation-duration: 0.3s, 1.5s;
-	-webkit-animation-delay: 0s, 0.3s;
-	animation-delay: 0s, 0.3s;
-	-webkit-animation-timing-function: ease-out, ease-in-out;
-	animation-timing-function: ease-out, ease-in-out;
-	-webkit-animation-iteration-count: 1, infinite;
-	animation-iteration-count: 1, infinite;
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	-webkit-animation-direction: normal, alternate;
-	animation-direction: normal, alternate;
-}
-
-/* Hang */
-@-webkit-keyframes hvr-hang {
-	0% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
-	50% {
-		-webkit-transform: translateY(4px);
-		transform: translateY(4px);
-	}
-	100% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
-}
-@keyframes hvr-hang {
-	0% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
-	50% {
-		-webkit-transform: translateY(4px);
-		transform: translateY(4px);
-	}
-	100% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
-}
-
-@-webkit-keyframes hvr-hang-sink {
-	100% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
-}
-@keyframes hvr-hang-sink {
-	100% {
-		-webkit-transform: translateY(8px);
-		transform: translateY(8px);
-	}
-}
-.hvr-hang {
-	display: inline-block;
-	vertical-align: middle;
-	-webkit-transform: perspective(1px) translateZ(0);
-	transform: perspective(1px) translateZ(0);
-	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-	color: #ffffff;
-}
-.hvr-hang:hover,
-.hvr-hang:focus,
-.hvr-hang:active {
-	-webkit-animation-name: hvr-hang-sink, hvr-hang;
-	animation-name: hvr-hang-sink, hvr-hang;
-	-webkit-animation-duration: 0.3s, 1.5s;
-	animation-duration: 0.3s, 1.5s;
-	-webkit-animation-delay: 0s, 0.3s;
-	animation-delay: 0s, 0.3s;
-	-webkit-animation-timing-function: ease-out, ease-in-out;
-	animation-timing-function: ease-out, ease-in-out;
-	-webkit-animation-iteration-count: 1, infinite;
-	animation-iteration-count: 1, infinite;
-	-webkit-animation-fill-mode: forwards;
-	animation-fill-mode: forwards;
-	-webkit-animation-direction: normal, alternate;
-	animation-direction: normal, alternate;
-	color: #ff6300;
-}
-
-/* Hover.css */
-
-/*---------------------------- Arrow animation */
-
 /* --------------------------- Menu */
 #menu-section {
 	margin-top: 12.15rem;
@@ -329,6 +194,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 .aspect-ratio--object {
 	z-index: -1;
 }
+
 #menu-section
 	> div.menu-container.flex.flex-wrap.justify-center
 	> article
@@ -345,6 +211,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	margin-top: 16rem;
 	margin-bottom: 5rem;
 }
+
 .gallery-container {
 	max-width: 900px;
 	display: grid;
@@ -358,6 +225,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	height: 200px;
 	object-fit: cover;
 }
+
 #gallery-section > div > a {
 	cursor: zoom-in;
 }
@@ -365,13 +233,19 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 .lightboxOverlay {
 	outline: none;
 }
+
+#lightbox > div.lb-dataContainer > div > div.lb-details {
+	font-family: "Montserrat", sans-serif;
+}
+
 /* --------------------------- Gallery */
 
-/* --------------------------- Contact Form */
+/* --------------------------- Contact Page */
 
 #contact-page-body {
 	background-color: #ff6d2e;
 }
+
 #shipping-info-section {
 	margin-top: 13rem;
 	background-color: #7ad7ff;
@@ -394,13 +268,14 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 
 #contact-section > div.ph0.mh0 > div {
 	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.6)),
-		url(/images/product/AnitasKitchenBATCH2-30.jpg) no-repeat center center;
+		url(/assets/images/product/AnitasKitchenBATCH2-30.jpg) no-repeat center
+			center;
 	background-size: cover;
 }
 
 #contact-section .contact-img1 {
-	background: url(/images/people/AnitasKitchenBATCH2-20.jpg) no-repeat center
-		center;
+	background: url(/assets/images/people/AnitasKitchenBATCH2-20.jpg) no-repeat
+		center center;
 	background-size: cover;
 	border: 4px solid #fff;
 }
@@ -414,17 +289,18 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	background-color: #7ad7ff;
 	color: #794fb8;
 }
+
 #contact-section button:hover {
 	background-color: #794fb8;
 	color: #7ad7ff;
 }
 
-/* --------------------------- Contact Form */
+/* --------------------------- Contact Page */
 
 /*---------------------------- Footer */
 footer {
 	background-color: #000b14;
-	background: url(/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
+	background: url(/assets/images/gaagii-jangle-art-print-background-native-aztec-african-tribal-hipster-folk-pattern-colourful-vasare-trend-design-textile-designers2.jpg)
 		center center;
 }
 

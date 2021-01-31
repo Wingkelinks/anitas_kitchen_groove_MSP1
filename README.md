@@ -49,16 +49,32 @@ Up until now, the business owner has promoted the business and dealt with orders
 **User interviews/research:**
 
 1. Would you like to have access to a website for Anita's Kitchen Groove?
+   Yes.
 
 2. If yes, what features/content would you like the website to have and why?
 
+- Place orders and make payments
+- View and search for images of products
+- Inclusion of prices and portion sizes.
+- Inclusion of packaging information.
+
 3. Would you use the website to access information and place orders?
+   Yes.
 
 4. What type of device would you normally use to perform the above tasks?
+   Mobile and desktop.
 
 5. What do you like about Anita's Kitchen Groove?
 
+- Delicious, wholesome foods
+- Quality ingredients
+- Unique products
+
 6. What aspect of the business would you like to see improved or altered?
+
+- The ability to 'share' the business through a website rather than only social media platforms.
+- Convenient options for ordering and paying (more automated).
+- Being able to find the business via a Google search.
 
 ### 4. Skeleton
 
@@ -144,6 +160,16 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 - Used to check performance, accessibility and SEO potential of the website.
 
+# Debugging
+
+- Some layout issues were encountered on the menu and contact page, when certain breakpoints were hit. This was resolved using Flexbox. Tachyons (the CSS framework used), has it's own integrated Flex classes which were easy to combine with the existing code.
+
+- On the menu page, the images all have hidden children which become visible on hover. The children are list items (ingredients). To ensure that the children's containers didn't exceed that of the parent element, restricting the font-size to one size only on all devices was necessary.
+
+- The hero image used in the header on the about page, sits behind the nav, which results in the top part of the image being cut off from view. For this reason, an image that wouldn't be negatively effected had to be chosen.
+
+-
+
 ## Deployment
 
 -
@@ -152,6 +178,7 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 - [Tachyons Components](http://tachyons.io/components/)
 - [LightBox2](https://lokeshdhakar.com/projects/lightbox2/)
+- [LiveBlogger](https://www.youtube.com/channel/UCCDjoOPSNiuLJX06HirPjOA) - implementation of LightBox assisted by youtube tutorial
 - [Slick Carousel](https://kenwheeler.github.io/slick/)
 
 ### Content

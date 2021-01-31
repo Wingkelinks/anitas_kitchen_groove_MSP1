@@ -32,6 +32,8 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ### 3. Structure
 
+## User Stories
+
 **Stakeholder interview:**
 
 1. What are the goals, values and vision of your business?
@@ -92,10 +94,6 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 ##
 
-### User Stories
-
-##
-
 ## Features
 
 ### Existing Features
@@ -115,8 +113,8 @@ Up until now, the business owner has promoted the business and dealt with orders
 ### Features Left to Implement
 
 - Potentially an online payment feature.
-
 - An 'add to cart' style feature.
+- Animated 'down arrows' to direct users further down the homepage. 
 
 ##
 
@@ -127,15 +125,19 @@ Up until now, the business owner has promoted the business and dealt with orders
 - [HTML5](https://html.com/html5/)
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://www.javascript.com/)
-- [JQuery](https://jquery.com/)
+- [JQuery](https://jquery.com/) - necessary for the implementation of the Slick Carousel. Simplified the use of JavaScript. 
 
 ##### 2. Integrations
 
+Tachyons was the preferred choice of CSS Toolkit. Being far more user friendly than something like Bootstrap for example, it offers a collection of small components that can be used independently as well as mixed in with others. Using it requires very little CSS and it is fully responsive.
+- [Tachyons](https://tachyons.io/)
+
+Other integrations include:
 - [FontAwesome](https://fontawesome.com/)
 - [Google Fonts](https://fonts.google.com/)
-- [Tachyons](https://tachyons.io/)
-- [LightBox2](https://lokeshdhakar.com/projects/lightbox2/)
-- [Slick Carousel](https://kenwheeler.github.io/slick/)
+
+- [LightBox2](https://lokeshdhakar.com/projects/lightbox2/) - by Lokesh Dakar, used in the gallery page of the website.
+- [Slick Carousel](https://kenwheeler.github.io/slick/) - by Ken Wheeler, used to create a testimonial section in the website.
 
 ##### 3. Workspace, version control and Repository storage
 
@@ -168,7 +170,7 @@ Up until now, the business owner has promoted the business and dealt with orders
 
 - The hero image used in the header on the about page, sits behind the nav, which results in the top part of the image being cut off from view. For this reason, an image that wouldn't be negatively effected had to be chosen.
 
--
+- A margin kept appearing above the shipping info section on the contact page, for screens in between tablet and small laptop sizes. This resulted in having to change the media query breakpoints for both sizes. 
 
 ## Deployment
 

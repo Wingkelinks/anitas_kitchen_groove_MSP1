@@ -78,35 +78,23 @@ nav {
 	z-index: 1;
 }
 
-/* Custom hover colours nav items */
-body
-	> nav
-	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
-	> a:nth-child(1):hover {
+/* Hover colours for nav links */
+body > nav > div > a:nth-child(1):hover {
 	background-color: #613d97;
 	color: #fff;
 }
 
-body
-	> nav
-	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
-	> a:nth-child(2):hover {
+body > nav > div > a:nth-child(2):hover {
 	background-color: #ff6d2e;
 	color: #fff;
 }
 
-body
-	> nav
-	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
-	> a:nth-child(3):hover {
+body > nav > div > a:nth-child(3):hover {
 	background-color: #7ac043;
 	color: #fff;
 }
 
-body
-	> nav
-	> div.tc.center.mt2.flex.justify-center.bg-white.bt.bb.bw2.b--near-white
-	> a:nth-child(4):hover {
+body > nav > div > a:nth-child(4):hover {
 	background-color: #ff428e;
 	color: #fff;
 }
@@ -174,6 +162,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	font-family: "Montserrat", sans-serif;
 }
 
+/* Slick carousel styling */
 .slick-next:before,
 .slick-prev:before {
 	color: #ff6d2e;
@@ -195,11 +184,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	z-index: -1;
 }
 
-#menu-section
-	> div.menu-container.flex.flex-wrap.justify-center
-	> article
-	> div.ph2.ph0-ns.pb3.link
-	> h3.f6.fw4.mt2.black-60 {
+#menu-section > div.menu-container > article > div > h3.f6 {
 	font-family: "Montserrat", sans-serif;
 }
 
@@ -230,6 +215,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	cursor: zoom-in;
 }
 
+/* Lightbox styling */
 .lightboxOverlay {
 	outline: none;
 }
@@ -266,7 +252,7 @@ body > nav > div.tc.center.mt2.flex.justify-center.bg-white {
 	background-color: #ff6d2e;
 }
 
-#contact-section > div.ph0.mh0 > div {
+#contact-section > div > div {
 	background: linear-gradient(rgba(255, 66, 142, 0.1), rgba(0, 0, 0, 0.6)),
 		url(/assets/images/product/AnitasKitchenBATCH2-30.jpg) no-repeat center
 			center;

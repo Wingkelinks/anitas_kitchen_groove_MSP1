@@ -151,6 +151,8 @@ Other integrations include:
 - [Visual Studio Code](https://code.visualstudio.com/) - Coding Editor
 - [Git](https://git-scm.com/) - Version Control
 - [GitHub](https://github.com/) - Repository Storage
+- [Imgbot](https://github.com/marketplace/imgbot) - A Github app that optimizes images (free for open source projects).
+  > Imgbot sends an auto pull request with images optimized. The pull request is merged and Imgbot keeps working as changes are made to the repository.
 
 ##
 
@@ -168,6 +170,10 @@ Other integrations include:
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 
 - Used to check performance, accessibility and SEO potential of the website.
+  - Overall performance: 86%
+  - Accessibility: 96%
+  - Best Practices: 93%
+  - SEO: 92%
 
 ### [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 
@@ -175,7 +181,10 @@ Other integrations include:
 
 ### [Web Page Test](https://www.webpagetest.org/)
 
-- Once published, this site tested the website's performance.
+- This site tested the website's performance.
+  - Load speed: 4.384s
+
+###
 
 ## Debugging
 
@@ -183,11 +192,17 @@ Other integrations include:
 
 - On the menu page, the images all have hidden children which become visible on hover. The children are list items (ingredients). To ensure that the children's containers didn't exceed that of the parent element, restricting the font-size to one size only on all devices was necessary.
 
+- The hidden children don't appear on a mobile device, because they rely on the :hover selector.
+
 - The hero image used in the header on the about page, sits behind the nav, which results in the top part of the image being cut off from view. For this reason, an image that wouldn't be negatively effected had to be chosen.
+
+- Despite passing the [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly), the background image of the header was blurred on small devices (when viewed via the published site). The issue was resolved with the help of Stack Overflow. The **fixed** property had to be removed from the background image.
 
 - A margin kept appearing above the shipping info section on the contact page, for screens in between tablet and small laptop sizes. This resulted in having to change the media query breakpoints for both sizes.
 
 - An over-scrolling/bouncing effect became apparent once a lot of the code was in place. After a lot of searching, the following resource on [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-behavior) proved useful. The issue was fixed by setting the **overscroll-behaviour to 'none'** on the body & html elements, as well as setting the **scroll-behaviour to 'smooth'** on the html.
+
+- First attempts to publish the website use Github Pages failed. After posting the problem on the Slack forum, @JimLynx_lead provided insight. The issue was fixed by moving all HTML files of the assets folder and into the root folder.
 
 ## Deployment
 
@@ -214,6 +229,7 @@ Other integrations include:
 - [Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - Guide to markdown on .md files.
 - [CSS Tricks](https://css-tricks.com/) - convenient CSS resources.
 - [Stack Overflow](https://stackoverflow.com/) - general questions and problem solving.
+- [W3 Schools](https://www.w3schools.com/) - HTML and CSS assistance.
 
 ### Content
 
@@ -226,4 +242,10 @@ Other integrations include:
 
 ### Acknowledgments
 
-##
+The idea for this project wouldn't be in existence if it wasn't for my Mom. Her hard work and passion, inspired me to create something that would not only assist her, but also illustrate and symbolize who she is as a person and business owner. Thanks Mom :heart:
+
+Thanks goes to my Mentor, Sebastian Immel for helping me consolidate and refine ideas, for positive affirmations, reality checks and calm guidance.
+
+To my brother @mattyturn95, for encouraging me to get into coding in the first place. As a recent Code Institute graduate himself, his insight and support has meant a lot to me. Thanks bro :blue_heart:
+
+Thank you to the Code Institue Slack community - a great place to check in and learn from others. Special thanks to @JimLynx_lead for his speedy and thorough resolutions to questions.

@@ -105,41 +105,43 @@
 						<i class="fas fa-hand-point-down f2"></i>
 					</div>
 				</div>
-				<form
-					method="POST"
-					data-netlify="true"
-					data-netlify-recaptcha="true"
-					class="flex w-100 flex-column"
-				>
+				<form action="#" method="POST" class="flex w-100 flex-column">
 					<div class="mt3 white">
 						<input
 							type="text"
+							required
+							id="name"
 							class="br2 pa2 input-reset ba bg-near-white w-100"
 							placeholder="Name"
 							name="Name"
 						/>
 						<input
 							type="text"
+							id="subject"
 							class="br2 mt3 pa2 input-reset ba bg-near-white w-100"
 							placeholder="Subject"
 							name="Subject"
 						/>
 						<input
 							type="email"
+							required
+							id="email"
 							class="br2 mt3 pa2 input-reset ba bg-near-white w-100"
 							placeholder="Email Address"
 							name="Email"
 						/>
 						<input
 							type="text"
+							id="phone"
 							class="br2 mt3 pa2 input-reset ba bg-near-white w-100"
 							placeholder="Phone Number"
 							name="Phone"
 						/>
 						<textarea
-							class="br2 mt3 pa2 pb5-m pb6-l input-reset ba bg-near-white w-100"
-							placeholder="Enter Message"
 							name="Message"
+							id="Message"
+							placeholder="Enter Message"
+							class="br2 mt3 pa2 pb5-m pb6-l input-reset ba bg-near-white w-100"
 						></textarea>
 					</div>
 					<button

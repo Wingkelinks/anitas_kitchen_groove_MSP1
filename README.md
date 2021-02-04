@@ -178,6 +178,7 @@ Other integrations include:
 ### [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly)
 
 - Once the website was published, this site was used to check if the site was mobile-friendly.
+  - Passed the test.
 
 ### [Web Page Test](https://www.webpagetest.org/)
 
@@ -186,7 +187,7 @@ Other integrations include:
 
 ###
 
-## Debugging
+## Debugging process & known bugs/issues
 
 - Some layout issues were encountered on the menu and contact page, when certain breakpoints were hit. This was resolved using Flexbox. [Tachyons](https://tachyons.io/docs/layout/flexbox/) (the CSS framework used), has it's own integrated Flex classes which were easy to combine with the existing code.
 
@@ -233,7 +234,7 @@ Other integrations include:
 
 ### Content
 
-- All the content in the website is original - and is property of Anita's Kitchen Groove Ltd.
+- All the content related to the business in the website is original - and is property of Anita's Kitchen Groove Ltd.
 
 ### Media
 
@@ -244,7 +245,7 @@ Other integrations include:
 
 The idea for this project wouldn't be in existence if it wasn't for my Mom. Her hard work and passion, inspired me to create something that would not only assist her, but also illustrate and symbolize who she is as a person and business owner. Thanks Mom :heart:
 
-Thanks goes to my Mentor, Sebastian Immel for helping me consolidate and refine ideas, for positive affirmations, reality checks and calm guidance.
+Thanks goes to my Mentor, Sebastian Immel for helping me consolidate and refine ideas, for positive affirmations, reality checks and his calm guidance.
 
 To my brother @mattyturn95, for encouraging me to get into coding in the first place. As a recent Code Institute graduate himself, his insight and support has meant a lot to me. Thanks bro :blue_heart:
 
